@@ -2,6 +2,9 @@ import * as React from 'react'
 import Layout from '../../components/layout'
 import {
     shopprofilemenusection,
+    areadescription,
+    buttonzagolovki,
+
     shopprofilemenulistitem,
     shopprofilemenulistitemimg,
     shopprofilemenusectionheading,
@@ -96,7 +99,7 @@ const AgerRu = () => {
         aria-expanded="false"
         aria-controls="offersCollapse"
       >
-        <button className="d-flex justify-content-between px-0 py-0 font-weight-bold btn btn-link btn-block text-left align-items-center">
+        <button className={buttonzagolovki}>
           <span className="w-75 text-truncate h3 mb-0">Προσφορές </span>
         </button>
       </h3>
@@ -111,7 +114,7 @@ const AgerRu = () => {
           data-position={0}
           data-price=""
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 1 Καφές της επιλογής σας &amp; 1 νερό 500ml{" "}
@@ -140,7 +143,7 @@ const AgerRu = () => {
           data-position={1}
           data-price=""
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 1 Καφές της επιλογής σας, 1 τοστ της επιλογής σας &amp; 1 νερό
@@ -170,7 +173,7 @@ const AgerRu = () => {
           data-position={2}
           data-price=""
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 1 Καφές της επιλογής σας, 1 μπαγκέτα της επιλογής σας &amp; 1
@@ -208,7 +211,7 @@ const AgerRu = () => {
         aria-expanded="false"
         aria-controls="offersCollapse"
       >
-        <button className="d-flex justify-content-between px-0 py-0 font-weight-bold btn btn-link btn-block text-left align-items-center">
+        <button className={buttonzagolovki}>
           <span className="w-75 text-truncate h3 mb-0">Δημοφιλέστερα </span>
         </button>
       </h3>
@@ -223,7 +226,7 @@ const AgerRu = () => {
           data-item-price="1,6"
           data-is-popular-item="true"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Σπανακοτυρόπιτα
@@ -257,7 +260,7 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="true"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Μπαγκέτα λευκή ζαμπόν &amp; gouda
@@ -294,7 +297,7 @@ const AgerRu = () => {
           data-item-price="1,6"
           data-is-popular-item="true"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Freddo espresso
@@ -328,7 +331,7 @@ const AgerRu = () => {
           data-item-price="1,6"
           data-is-popular-item="true"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Cappuccino
@@ -362,7 +365,7 @@ const AgerRu = () => {
           data-item-price="2,2"
           data-is-popular-item="true"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Πίτσα large
@@ -399,7 +402,7 @@ const AgerRu = () => {
           data-item-price="1,6"
           data-is-popular-item="true"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Freddo cappuccino
@@ -433,7 +436,7 @@ const AgerRu = () => {
           data-item-price="1,8"
           data-is-popular-item="true"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Γραβιερόπιτα
@@ -467,7 +470,7 @@ const AgerRu = () => {
           data-item-price="1,2"
           data-is-popular-item="true"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Κουλούρι Θεσσαλονίκης γεμιστό με Philadelphia &amp; πάστα ελιάς
@@ -501,7 +504,7 @@ const AgerRu = () => {
           data-item-price="1,2"
           data-is-popular-item="true"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Κουλούρι Θεσσαλονίκης γεμιστό με Philadelphia &amp; γαλοπούλα
@@ -543,7 +546,7 @@ const AgerRu = () => {
         aria-expanded="false"
         aria-controls="offersCollapse"
       >
-        <button className="d-flex justify-content-between px-0 py-0 font-weight-bold btn btn-link btn-block text-left align-items-center">
+        <button className={buttonzagolovki}>
           <span className="w-75 text-truncate h3 mb-0">Καφέδες </span>
         </button>
       </h3>
@@ -558,7 +561,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Espresso
@@ -592,7 +595,7 @@ const AgerRu = () => {
           data-item-price="1,2"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Espresso lungo
@@ -613,7 +616,7 @@ const AgerRu = () => {
           data-item-price="1,2"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Espresso americano
@@ -634,7 +637,7 @@ const AgerRu = () => {
           data-item-price="1,6"
           data-is-popular-item="true"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Freddo espresso
@@ -668,7 +671,7 @@ const AgerRu = () => {
           data-item-price="1,6"
           data-is-popular-item="true"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Cappuccino
@@ -702,7 +705,7 @@ const AgerRu = () => {
           data-item-price="1,6"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Cappuccino latte
@@ -723,7 +726,7 @@ const AgerRu = () => {
           data-item-price="1,6"
           data-is-popular-item="true"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Freddo cappuccino
@@ -757,7 +760,7 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Nes
@@ -778,7 +781,7 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Frappe
@@ -799,7 +802,7 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Φίλτρου
@@ -833,7 +836,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Ελληνικός
@@ -875,7 +878,7 @@ const AgerRu = () => {
         aria-expanded="false"
         aria-controls="offersCollapse"
       >
-        <button className="d-flex justify-content-between px-0 py-0 font-weight-bold btn btn-link btn-block text-left align-items-center">
+        <button className={buttonzagolovki}>
           <span className="w-75 text-truncate h3 mb-0">Ροφήματα </span>
         </button>
       </h3>
@@ -890,7 +893,7 @@ const AgerRu = () => {
           data-item-price={2}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Σοκολάτα
@@ -924,7 +927,7 @@ const AgerRu = () => {
           data-item-price="3,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Freddito
@@ -945,7 +948,7 @@ const AgerRu = () => {
           data-item-price={2}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Φυσικός χυμός ανάμεικτος
@@ -990,7 +993,7 @@ const AgerRu = () => {
         aria-expanded="false"
         aria-controls="offersCollapse"
       >
-        <button className="d-flex justify-content-between px-0 py-0 font-weight-bold btn btn-link btn-block text-left align-items-center">
+        <button className={buttonzagolovki}>
           <span className="w-75 text-truncate h3 mb-0">Τσάι | Iced tea </span>
         </button>
       </h3>
@@ -1005,7 +1008,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Τσάι λεμόνι
@@ -1042,7 +1045,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Τσάι φράουλα
@@ -1079,7 +1082,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Τσάι καραμέλα
@@ -1116,7 +1119,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Τσάι πράσινο
@@ -1153,7 +1156,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Τσάι βανίλια
@@ -1190,7 +1193,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Τσάι English breakfast
@@ -1227,7 +1230,7 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Iced tea βατόμουρο με stevia
@@ -1256,7 +1259,7 @@ const AgerRu = () => {
         aria-expanded="false"
         aria-controls="offersCollapse"
       >
-        <button className="d-flex justify-content-between px-0 py-0 font-weight-bold btn btn-link btn-block text-left align-items-center">
+        <button className={buttonzagolovki}>
           <span className="w-75 text-truncate h3 mb-0">
             Milkshakes | Γρανίτες{" "}
           </span>
@@ -1273,7 +1276,7 @@ const AgerRu = () => {
           data-item-price="3,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Milkshake σοκολάτα
@@ -1294,7 +1297,7 @@ const AgerRu = () => {
           data-item-price="3,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Milkshake βανίλια
@@ -1315,7 +1318,7 @@ const AgerRu = () => {
           data-item-price="3,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Milkshake φράουλα
@@ -1336,7 +1339,7 @@ const AgerRu = () => {
           data-item-price={2}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Γρανίτα λεμόνι
@@ -1360,7 +1363,7 @@ const AgerRu = () => {
           data-item-price={2}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Γρανίτα λεμόνι &amp; φράουλα
@@ -1384,7 +1387,7 @@ const AgerRu = () => {
           data-item-price={2}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Γρανίτα ανανάς, mango &amp; αγαύη
@@ -1408,7 +1411,7 @@ const AgerRu = () => {
           data-item-price={2}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Γρανίτα μοσχολέμονο &amp; αγαύη
@@ -1432,7 +1435,7 @@ const AgerRu = () => {
           data-item-price={2}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Γρανίτα πράσινο μήλο &amp; ρόδι
@@ -1464,7 +1467,7 @@ const AgerRu = () => {
         aria-expanded="false"
         aria-controls="offersCollapse"
       >
-        <button className="d-flex justify-content-between px-0 py-0 font-weight-bold btn btn-link btn-block text-left align-items-center">
+        <button className={buttonzagolovki}>
           <span className="w-75 text-truncate h3 mb-0">Σφολιάτες </span>
         </button>
       </h3>
@@ -1479,7 +1482,7 @@ const AgerRu = () => {
           data-item-price="1,6"
           data-is-popular-item="true"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Σπανακοτυρόπιτα
@@ -1513,7 +1516,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Τυρόπιτα βουτύρου
@@ -1534,7 +1537,7 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Λουκανικόπιτα
@@ -1555,7 +1558,7 @@ const AgerRu = () => {
           data-item-price={2}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Κρουασάν ζαμπόν &amp; τυρί κρέμα
@@ -1576,7 +1579,7 @@ const AgerRu = () => {
           data-item-price="2,2"
           data-is-popular-item="true"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Πίτσα large
@@ -1613,7 +1616,7 @@ const AgerRu = () => {
           data-item-price="2,2"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Πεϊνιρλί
@@ -1637,7 +1640,7 @@ const AgerRu = () => {
           data-item-price="1,8"
           data-is-popular-item="true"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Γραβιερόπιτα
@@ -1671,7 +1674,7 @@ const AgerRu = () => {
           data-item-price="0,6"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Κουλούρι Θεσσαλονίκης
@@ -1705,7 +1708,7 @@ const AgerRu = () => {
           data-item-price="1,2"
           data-is-popular-item="true"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Κουλούρι Θεσσαλονίκης γεμιστό με Philadelphia &amp; πάστα ελιάς
@@ -1739,7 +1742,7 @@ const AgerRu = () => {
           data-item-price="1,2"
           data-is-popular-item="true"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Κουλούρι Θεσσαλονίκης γεμιστό με Philadelphia &amp; γαλοπούλα
@@ -1773,7 +1776,7 @@ const AgerRu = () => {
           data-item-price={3}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Μπουγάτσα κρέμα
@@ -1794,7 +1797,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Κρουασάν βουτύρου
@@ -1828,7 +1831,7 @@ const AgerRu = () => {
           data-item-price="1,6"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Κρουασάν σοκολάτα
@@ -1849,7 +1852,7 @@ const AgerRu = () => {
           data-item-price="2,4"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Φύλλο σφολιάτας με Philadelphia &amp; μπέικον
@@ -1878,7 +1881,7 @@ const AgerRu = () => {
         aria-expanded="false"
         aria-controls="offersCollapse"
       >
-        <button className="d-flex justify-content-between px-0 py-0 font-weight-bold btn btn-link btn-block text-left align-items-center">
+        <button className={buttonzagolovki}>
           <span className="w-75 text-truncate h3 mb-0">Τοστ | Sandwiches </span>
         </button>
       </h3>
@@ -1893,7 +1896,7 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Τοστ ζαμπόν &amp; gouda
@@ -1917,7 +1920,7 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Τοστ γαλοπούλα &amp; gouda
@@ -1941,7 +1944,7 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="true"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Μπαγκέτα λευκή ζαμπόν &amp; gouda
@@ -1978,7 +1981,7 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Μπαγκέτα λευκή γαλοπούλα &amp; gouda
@@ -2002,7 +2005,7 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Ζάγκας food group chicken club
@@ -2026,7 +2029,7 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Ζάγκας food group ψωμί του τοστ ολικής άλεσης γαλοπούλα, gouda,
@@ -2059,7 +2062,7 @@ const AgerRu = () => {
         aria-expanded="false"
         aria-controls="offersCollapse"
       >
-        <button className="d-flex justify-content-between px-0 py-0 font-weight-bold btn btn-link btn-block text-left align-items-center">
+        <button className={buttonzagolovki}>
           <span className="w-75 text-truncate h3 mb-0">
             Οικογένεια Στεργίου{" "}
           </span>
@@ -2076,7 +2079,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Στεργίου κρουασάν με γέμιση πραλίνα φουντουκιού 105gr
@@ -2110,7 +2113,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Στεργίου βιεννέζικο με γέμιση κρέμα σοκολάτας 120gr
@@ -2144,7 +2147,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Στεργίου strudel με γέμιση μήλο &amp; κανέλα 125gr
@@ -2178,7 +2181,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Στεργίου mini τσουρέκι με μαστίχα Χίου 90gr
@@ -2212,7 +2215,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Στεργίου mini τσουρέκι με γέμιση πραλίνα φουντουκιού 90gr
@@ -2246,7 +2249,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Στεργίου μηλόπιτα 105gr
@@ -2280,7 +2283,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Στεργίου λεμονόπιτα 105gr
@@ -2314,7 +2317,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Στεργίου soft cookie με κομμάτια σοκολάτας υγείας 100gr
@@ -2348,7 +2351,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Στεργίου muffin σοκολάτας με γέμιση πραλίνα φουντουκιού 120gr
@@ -2382,7 +2385,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Στεργίου muffin βουτύρου με γέμιση salted caramel 120gr
@@ -2416,7 +2419,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Στεργίου cake ανάμεικτο 80gr
@@ -2440,7 +2443,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Στεργίου cake πορτοκάλι ατομικό 80gr
@@ -2477,7 +2480,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Στεργίου κριτσίνια με καρότο Vegan 90gr
@@ -2511,7 +2514,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Στεργίου κριτσίνια πολύσπορα 90gr
@@ -2545,7 +2548,7 @@ const AgerRu = () => {
           data-item-price="1,7"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Στεργίου κριτσίνια με σουσάμι Vegan 180gr
@@ -2579,7 +2582,7 @@ const AgerRu = () => {
           data-item-price="1,7"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Στεργίου κριτσίνια με ηλιόσπορο Vegan 180gr
@@ -2621,7 +2624,7 @@ const AgerRu = () => {
         aria-expanded="false"
         aria-controls="offersCollapse"
       >
-        <button className="d-flex justify-content-between px-0 py-0 font-weight-bold btn btn-link btn-block text-left align-items-center">
+        <button className={buttonzagolovki}>
           <span className="w-75 text-truncate h3 mb-0">Σαλάτες </span>
         </button>
       </h3>
@@ -2636,7 +2639,7 @@ const AgerRu = () => {
           data-item-price={4}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Ντάκος
@@ -2661,7 +2664,7 @@ const AgerRu = () => {
           data-item-price={4}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Πράσινη
@@ -2686,7 +2689,7 @@ const AgerRu = () => {
           data-item-price="3,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Φρουτοσαλάτα
@@ -2718,7 +2721,7 @@ const AgerRu = () => {
         aria-expanded="false"
         aria-controls="offersCollapse"
       >
-        <button className="d-flex justify-content-between px-0 py-0 font-weight-bold btn btn-link btn-block text-left align-items-center">
+        <button className={buttonzagolovki}>
           <span className="w-75 text-truncate h3 mb-0">Ζυμαρικά </span>
         </button>
       </h3>
@@ -2733,7 +2736,7 @@ const AgerRu = () => {
           data-item-price="3,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Spaghetti napolitana
@@ -2757,7 +2760,7 @@ const AgerRu = () => {
           data-item-price="3,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Spaghetti bolognese
@@ -2790,7 +2793,7 @@ const AgerRu = () => {
         aria-expanded="false"
         aria-controls="offersCollapse"
       >
-        <button className="d-flex justify-content-between px-0 py-0 font-weight-bold btn btn-link btn-block text-left align-items-center">
+        <button className={buttonzagolovki}>
           <span className="w-75 text-truncate h3 mb-0">Γλυκά </span>
         </button>
       </h3>
@@ -2805,7 +2808,7 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Ζάγκας food group προφιτερόλ 180gr
@@ -2826,7 +2829,7 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Ζάγκας food group mille feuille 180gr
@@ -2847,7 +2850,7 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Ζάγκας food group Bueno 180gr
@@ -2868,7 +2871,7 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Ζάγκας food group Black forest 180gr
@@ -2889,7 +2892,7 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Ζάγκας food group cheesecake 180gr
@@ -2910,7 +2913,7 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Ζάγκας food group σοκολατόπιτα 140gr
@@ -2939,7 +2942,7 @@ const AgerRu = () => {
         aria-expanded="false"
         aria-controls="offersCollapse"
       >
-        <button className="d-flex justify-content-between px-0 py-0 font-weight-bold btn btn-link btn-block text-left align-items-center">
+        <button className={buttonzagolovki}>
           <span className="w-75 text-truncate h3 mb-0">Αναψυκτικά </span>
         </button>
       </h3>
@@ -2954,7 +2957,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Coca-Cola 330ml
@@ -2988,7 +2991,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Coca-Cola zero 330ml
@@ -3022,7 +3025,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Fanta κόκκινη 330ml
@@ -3056,7 +3059,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Fanta μπλε 330ml
@@ -3090,7 +3093,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Sprite 330ml
@@ -3124,7 +3127,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Amita πορτοκάλι 330ml
@@ -3158,7 +3161,7 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Amita Motion 330ml
@@ -3192,7 +3195,7 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Lipton ice tea λεμόνι 330ml
@@ -3226,7 +3229,7 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Lipton ice tea ροδάκινο 330ml
@@ -3260,7 +3263,7 @@ const AgerRu = () => {
           data-item-price="0,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Νερό 500ml
@@ -3294,7 +3297,7 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Νερό 1lt
@@ -3336,7 +3339,7 @@ const AgerRu = () => {
         aria-expanded="false"
         aria-controls="offersCollapse"
       >
-        <button className="d-flex justify-content-between px-0 py-0 font-weight-bold btn btn-link btn-block text-left align-items-center">
+        <button className={buttonzagolovki}>
           <span className="w-75 text-truncate h3 mb-0">Μπύρες </span>
         </button>
       </h3>
@@ -3351,7 +3354,7 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Άλφα 330ml
@@ -3385,7 +3388,7 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Amstel 330ml
@@ -3419,7 +3422,7 @@ const AgerRu = () => {
           data-item-price="1,7"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Heineken 330ml
@@ -3453,7 +3456,7 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="false"
         >
-          <div className="shop-profile-menu-list-item--inner py-7 d-flex justify-content-between align-items-center">
+          <div className={areadescription}>
             <div>
               <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
                 Kaiser 500ml
