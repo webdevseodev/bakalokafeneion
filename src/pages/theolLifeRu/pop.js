@@ -104,7 +104,7 @@ const AgerRu = () => {
         id="prosforesCollapse"
       >
         <li
-          className="shop-profile-menu-list-item shop-profile-menu-list-offer"
+         className={shopprofilemenulistitem}
           data-offer_id={524288}
           data-offer-name="1 Καφές της επιλογής σας & 1 νερό 500ml"
           data-position={0}
@@ -133,7 +133,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item shop-profile-menu-list-offer"
+         className={shopprofilemenulistitem}
           data-offer_id={524289}
           data-offer-name="1 Καφές της επιλογής σας, 1 τοστ της επιλογής σας & 1 νερό 500ml"
           data-position={1}
@@ -163,7 +163,7 @@ const AgerRu = () => {
           </div>
         </li>
         <li
-          className="shop-profile-menu-list-item shop-profile-menu-list-offer"
+          className={shopprofilemenulistitem}
           data-offer_id={524290}
           data-offer-name="1 Καφές της επιλογής σας, 1 μπαγκέτα της επιλογής σας & 1 νερό 500ml"
           data-position={2}
