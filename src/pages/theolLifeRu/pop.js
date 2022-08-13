@@ -4,6 +4,7 @@ import {
     shopprofilemenusection,
     shopprofilemenulistitem,
     shopprofilemenulistitemimg,
+    shopprofilemenusectionheading,
     navbar,
     heading1,
     navLinks,
@@ -89,7 +90,7 @@ const AgerRu = () => {
       data-has-only-offers="true"
     >
       <h3
-        className="shopprofilemenusection-heading mb-0 py-4 border-bottom border-black "
+        className={shopprofilemenusectionheading}
         href="#prosforesCollapse"
         role="button"
         aria-expanded="false"
@@ -201,7 +202,7 @@ const AgerRu = () => {
       data-section-items={9}
     >
       <h3
-        className="shopprofilemenusection-heading mb-0 py-4 border-bottom border-black"
+        className={shopprofilemenusectionheading}
         href="#dimofilesteraCollapse"
         role="button"
         aria-expanded="false"
@@ -536,7 +537,7 @@ const AgerRu = () => {
       data-section-items={11}
     >
       <h3
-        className="shopprofilemenusection-heading mb-0 py-4 border-bottom border-black"
+        className={shopprofilemenusectionheading}
         href="#kafedesCollapse"
         role="button"
         aria-expanded="false"
@@ -868,7 +869,7 @@ const AgerRu = () => {
       data-section-items={3}
     >
       <h3
-        className="shopprofilemenusection-heading mb-0 py-4 border-bottom border-black"
+        className={shopprofilemenusectionheading}
         href="#rofimataCollapse"
         role="button"
         aria-expanded="false"
@@ -983,7 +984,7 @@ const AgerRu = () => {
       data-section-items={7}
     >
       <h3
-        className="shopprofilemenusection-heading mb-0 py-4 border-bottom border-black"
+        className={shopprofilemenusectionheading}
         href="#tsai-iced-teaCollapse"
         role="button"
         aria-expanded="false"
@@ -1249,7 +1250,7 @@ const AgerRu = () => {
       data-section-items={8}
     >
       <h3
-        className="shopprofilemenusection-heading mb-0 py-4 border-bottom border-black"
+        className={shopprofilemenusectionheading}
         href="#milkshakes-granitesCollapse"
         role="button"
         aria-expanded="false"
@@ -1457,7 +1458,7 @@ const AgerRu = () => {
       data-section-items={14}
     >
       <h3
-        className="shopprofilemenusection-heading mb-0 py-4 border-bottom border-black"
+        className={shopprofilemenusectionheading}
         href="#sfoliatesCollapse"
         role="button"
         aria-expanded="false"
@@ -1871,7 +1872,7 @@ const AgerRu = () => {
       data-section-items={6}
     >
       <h3
-        className="shopprofilemenusection-heading mb-0 py-4 border-bottom border-black"
+        className={shopprofilemenusectionheading}
         href="#tost-sandwichesCollapse"
         role="button"
         aria-expanded="false"
@@ -2052,7 +2053,7 @@ const AgerRu = () => {
       data-section-items={16}
     >
       <h3
-        className="shopprofilemenusection-heading mb-0 py-4 border-bottom border-black"
+        className={shopprofilemenusectionheading}
         href="#oikogeneia-stergioyCollapse"
         role="button"
         aria-expanded="false"
@@ -2614,7 +2615,7 @@ const AgerRu = () => {
       data-section-items={3}
     >
       <h3
-        className="shopprofilemenusection-heading mb-0 py-4 border-bottom border-black"
+        className={shopprofilemenusectionheading}
         href="#salatesCollapse"
         role="button"
         aria-expanded="false"
@@ -2711,7 +2712,7 @@ const AgerRu = () => {
       data-section-items={2}
     >
       <h3
-        className="shopprofilemenusection-heading mb-0 py-4 border-bottom border-black"
+        className={shopprofilemenusectionheading}
         href="#zymarikaCollapse"
         role="button"
         aria-expanded="false"
@@ -2783,7 +2784,7 @@ const AgerRu = () => {
       data-section-items={6}
     >
       <h3
-        className="shopprofilemenusection-heading mb-0 py-4 border-bottom border-black"
+        className={shopprofilemenusectionheading}
         href="#glykaCollapse"
         role="button"
         aria-expanded="false"
@@ -2932,7 +2933,7 @@ const AgerRu = () => {
       data-section-items={11}
     >
       <h3
-        className="shopprofilemenusection-heading mb-0 py-4 border-bottom border-black"
+        className={shopprofilemenusectionheading}
         href="#anapsyktikaCollapse"
         role="button"
         aria-expanded="false"
@@ -3329,7 +3330,7 @@ const AgerRu = () => {
       data-section-items={4}
     >
       <h3
-        className="shopprofilemenusection-heading mb-0 py-4 border-bottom border-black"
+        className={shopprofilemenusectionheading}
         href="#mpyresCollapse"
         role="button"
         aria-expanded="false"
