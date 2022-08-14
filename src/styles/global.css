@@ -25,7 +25,7 @@ p {
 }
 
 /* layout & nav */
-.layout {
+/* .layout {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -33,7 +33,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 40px auto;
-}
+} */
 /* nav .links {
   display: flex;
   text-align: center;

@@ -5,7 +5,9 @@ import {
     areadescription,
     buttonzagolovki,
     span,
+    papa,
     areaparagraf2,
+    areaparagraf3,
     pricebutton,
     areaparagraf,
     shopprofilemenulistitem,
@@ -16,6 +18,7 @@ import {
     heading1,
     navLinks,
     navLinkItem,
+    navLinkItem2,
     navLinkText
   } from '../components/layout.module.css'
   import { Link } from 'gatsby'
@@ -117,6 +120,19 @@ const AgerRu = () => {
           data-position={0}
           data-price=""
         >
+          <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+              </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -146,6 +162,19 @@ const AgerRu = () => {
           data-position={1}
           data-price=""
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -176,12 +205,26 @@ const AgerRu = () => {
           data-position={2}
           data-price=""
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
                 1 Καφές της επιλογής σας, 1 μπαγκέτα της επιλογής σας &amp; 1
                 νερό 500ml{" "}
               </p>
+             
               <span className="mr-3">
                 <button
                   type="button"
@@ -189,6 +232,10 @@ const AgerRu = () => {
                 >
                   <span className={span}>3,00€</span>
                 </button>
+               
+                
+
+
               </span>
               <div className="d-inline-block">
                 <div
@@ -229,6 +276,19 @@ const AgerRu = () => {
           data-item-price="1,6"
           data-is-popular-item="true"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -263,6 +323,19 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="true"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -300,6 +373,19 @@ const AgerRu = () => {
           data-item-price="1,6"
           data-is-popular-item="true"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -334,6 +420,19 @@ const AgerRu = () => {
           data-item-price="1,6"
           data-is-popular-item="true"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -368,6 +467,19 @@ const AgerRu = () => {
           data-item-price="2,2"
           data-is-popular-item="true"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -405,6 +517,19 @@ const AgerRu = () => {
           data-item-price="1,6"
           data-is-popular-item="true"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -439,6 +564,19 @@ const AgerRu = () => {
           data-item-price="1,8"
           data-is-popular-item="true"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -473,6 +611,19 @@ const AgerRu = () => {
           data-item-price="1,2"
           data-is-popular-item="true"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -507,6 +658,19 @@ const AgerRu = () => {
           data-item-price="1,2"
           data-is-popular-item="true"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -564,6 +728,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -598,6 +775,19 @@ const AgerRu = () => {
           data-item-price="1,2"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -619,6 +809,19 @@ const AgerRu = () => {
           data-item-price="1,2"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -640,6 +843,19 @@ const AgerRu = () => {
           data-item-price="1,6"
           data-is-popular-item="true"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -674,6 +890,19 @@ const AgerRu = () => {
           data-item-price="1,6"
           data-is-popular-item="true"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -708,6 +937,19 @@ const AgerRu = () => {
           data-item-price="1,6"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -729,6 +971,19 @@ const AgerRu = () => {
           data-item-price="1,6"
           data-is-popular-item="true"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -763,6 +1018,19 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -784,6 +1052,19 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -805,6 +1086,19 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -839,6 +1133,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -896,6 +1203,19 @@ const AgerRu = () => {
           data-item-price={2}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -930,6 +1250,19 @@ const AgerRu = () => {
           data-item-price="3,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -951,6 +1284,19 @@ const AgerRu = () => {
           data-item-price={2}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1011,6 +1357,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1048,6 +1407,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1085,6 +1457,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1122,6 +1507,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1159,6 +1557,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1196,6 +1607,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1233,6 +1657,19 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1279,6 +1716,19 @@ const AgerRu = () => {
           data-item-price="3,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1300,6 +1750,19 @@ const AgerRu = () => {
           data-item-price="3,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1321,6 +1784,19 @@ const AgerRu = () => {
           data-item-price="3,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1342,6 +1818,19 @@ const AgerRu = () => {
           data-item-price={2}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1366,6 +1855,19 @@ const AgerRu = () => {
           data-item-price={2}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1390,6 +1892,19 @@ const AgerRu = () => {
           data-item-price={2}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1414,6 +1929,19 @@ const AgerRu = () => {
           data-item-price={2}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1438,6 +1966,19 @@ const AgerRu = () => {
           data-item-price={2}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1485,6 +2026,19 @@ const AgerRu = () => {
           data-item-price="1,6"
           data-is-popular-item="true"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1519,6 +2073,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1540,6 +2107,19 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1561,6 +2141,19 @@ const AgerRu = () => {
           data-item-price={2}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1582,6 +2175,19 @@ const AgerRu = () => {
           data-item-price="2,2"
           data-is-popular-item="true"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1619,6 +2225,19 @@ const AgerRu = () => {
           data-item-price="2,2"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1643,6 +2262,19 @@ const AgerRu = () => {
           data-item-price="1,8"
           data-is-popular-item="true"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1677,6 +2309,19 @@ const AgerRu = () => {
           data-item-price="0,6"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1711,6 +2356,19 @@ const AgerRu = () => {
           data-item-price="1,2"
           data-is-popular-item="true"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1745,6 +2403,19 @@ const AgerRu = () => {
           data-item-price="1,2"
           data-is-popular-item="true"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1779,6 +2450,19 @@ const AgerRu = () => {
           data-item-price={3}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1800,6 +2484,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1834,6 +2531,19 @@ const AgerRu = () => {
           data-item-price="1,6"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1855,6 +2565,19 @@ const AgerRu = () => {
           data-item-price="2,4"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1899,6 +2622,19 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1923,6 +2659,19 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1947,6 +2696,19 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="true"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -1984,6 +2746,19 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2008,6 +2783,19 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2032,6 +2820,19 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2082,6 +2883,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2116,6 +2930,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2150,6 +2977,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2184,6 +3024,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2218,6 +3071,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2252,6 +3118,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2286,6 +3165,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2320,6 +3212,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2354,6 +3259,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2388,6 +3306,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2422,6 +3353,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2446,6 +3390,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2483,6 +3440,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2517,6 +3487,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2551,6 +3534,19 @@ const AgerRu = () => {
           data-item-price="1,7"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2585,6 +3581,19 @@ const AgerRu = () => {
           data-item-price="1,7"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2642,6 +3651,19 @@ const AgerRu = () => {
           data-item-price={4}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2667,6 +3689,19 @@ const AgerRu = () => {
           data-item-price={4}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2692,6 +3727,19 @@ const AgerRu = () => {
           data-item-price="3,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2739,6 +3787,19 @@ const AgerRu = () => {
           data-item-price="3,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2763,6 +3824,19 @@ const AgerRu = () => {
           data-item-price="3,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2811,6 +3885,19 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2832,6 +3919,19 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2853,6 +3953,19 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2874,6 +3987,19 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2895,6 +4021,19 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2916,6 +4055,19 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2960,6 +4112,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -2994,6 +4159,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -3028,6 +4206,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -3062,6 +4253,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -3096,6 +4300,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -3130,6 +4347,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -3164,6 +4394,19 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -3198,6 +4441,19 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -3232,6 +4488,19 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -3266,6 +4535,19 @@ const AgerRu = () => {
           data-item-price="0,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -3300,6 +4582,19 @@ const AgerRu = () => {
           data-item-price={1}
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -3357,6 +4652,19 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -3391,6 +4699,19 @@ const AgerRu = () => {
           data-item-price="1,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -3425,6 +4746,19 @@ const AgerRu = () => {
           data-item-price="1,7"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>
@@ -3459,6 +4793,19 @@ const AgerRu = () => {
           data-item-price="2,5"
           data-is-popular-item="false"
         >
+           <li className={navLinkItem2}>
+            <Link to="https://www.e-food.gr/delivery/kallithea/mpakalokafeneion?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" className={navLinkText}>
+        <p className={papa}>Παραγγειλτε τωρα απο E-Food</p>
+            </Link>
+          </li>
+          <li className={navLinkItem2}>
+            
+            <p className={areaparagraf3}>
+            Παραγγειλτε τωρα στο 211-42-47-089
+              </p>
+           
+          
+          </li>
           <div className={areadescription}>
             <div>
               <p className={areaparagraf}>

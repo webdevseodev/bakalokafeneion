@@ -43,9 +43,12 @@ margin: 1rem;
   background-color:rgb(179, 245, 188);
 }
 .nav-link-text {
+  display: flex;
+  justify-content: space-between;
   color: black;
   font-size: 2em;
   font-weight: bolder;
+  text-align: center;
 }
 
 
@@ -113,7 +116,26 @@ justify-content: space-around;
     font-size: 2em;
     font-weight:bolder;
   }
-
+  .areaparagraf3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 2px;
+      text-align: center;
+      font-size: 19px;
+      font-weight:bolder;
+    }
+    .navLinkItem2 {
+      border-radius: 1rem;
+      display: flex;
+      justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 4px;
+      padding: 2px;
+      background-color:rgb(179, 245, 188);
+      text-align: center;
+      font-size: 14px;
+    }
   .pricebutton{
 display: flex;
     width: 22em;
@@ -130,4 +152,9 @@ padding: 0.3em;
     display: flex;
     font-size: 2.2em;
 font-weight: bold;
+  }
+
+  .papa{
+margin: 2px;
+    font-size: 19px;
   }
