@@ -6,9 +6,9 @@ import {heading1} from '../components/layout.module.css'
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Home Page">
+    <Layout pageTitle="Καλως ορισατε στο">
 
-      <h1 className={heading1}> <p>Emanuel Swedenborg</p> </h1>
+      <h1 className={heading1}> <p>ΜΠΑΚΑΛΟΚΑΦΕΝΕΙΟΝ</p> </h1>
       <StaticImage
         alt=""
         src="../images/icon.png"

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import Layout from '../../components/layout'
+import Layout from '../components/layout'
 import {
     shopprofilemenusection,
     areadescription,
@@ -17,7 +17,7 @@ import {
     navLinks,
     navLinkItem,
     navLinkText
-  } from '../../components/layout.module.css'
+  } from '../components/layout.module.css'
   import { Link } from 'gatsby'
   import { StaticImage } from 'gatsby-plugin-image'
   
@@ -30,9 +30,8 @@ const AgerRu = () => {
   return (
 
    
-    <Layout pageTitle="О Рае и аде (Ager)
-    ">
- <nav className={navbar}>
+    <Layout >
+ {/* <nav className={navbar}>
   <ul className={navLinks}>
     <li className={navLinkItem}>
       <Link to="/" className={navLinkText}>
@@ -77,7 +76,7 @@ const AgerRu = () => {
 
 
   </ul>
-</nav>
+</nav> */}
 <h1 className={heading1}><p>Καταλογος</p> </h1>
 
 {/* <StaticImage
