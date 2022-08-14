@@ -7,12 +7,17 @@
   font-family: "Montserrat";
   color: rgb(22, 20, 20);
 }
-html, body {
+/* html, body {
   min-height: 100%;
-}
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+
+} */
 body {
-  background: radial-gradient(at top left, rgb(159, 164, 184) 0%, rgb(14, 2, 36) 100%);
-  background-repeat: no-repeat;
+  /* background: radial-gradient(at bottom right, rgb(70, 31, 31) 0%, rgb(189, 183, 219) 100%);
+  background-repeat: no-repeat; */
+  background-color:rgb(154, 134, 156)
 }
 p {
   margin: 16px auto;

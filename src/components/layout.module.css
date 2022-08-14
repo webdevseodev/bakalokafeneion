@@ -22,7 +22,7 @@ justify-items: center;
 .heading1 {
   color: rgb(95, 103, 145);
   text-align: center;
-  font-size:22px;
+  font-size:3em;
 }
 .nav-links {
   display: flex;
@@ -88,3 +88,42 @@ display: flex;
 flex-direction: column-reverse;
 justify-items: center;
 }
+
+.areaparagraf {
+display: flex;
+justify-content: space-around;
+  text-align: center;
+  font-size: 2em;
+}
+
+.areadivimage {
+flex-direction: row-reverse;
+  display: flex;
+justify-content: space-around;
+  justify-items: center;
+}
+
+.areaparagraf2 {
+  display: flex;
+  justify-content: space-around;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .pricebutton{
+display: flex;
+    width: 22em;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:rgb(192, 216, 208);
+    min-height: 4em;
+    justify-items: center;
+border-radius:2em;
+  }
+
+  .span{
+padding: 0.3em;
+    display: flex;
+    font-size: 2.2em;
+font-weight: bold;
+  }

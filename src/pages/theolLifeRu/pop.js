@@ -4,10 +4,14 @@ import {
     shopprofilemenusection,
     areadescription,
     buttonzagolovki,
-
+    span,
+    areaparagraf2,
+    pricebutton,
+    areaparagraf,
     shopprofilemenulistitem,
     shopprofilemenulistitemimg,
     shopprofilemenusectionheading,
+    areadivimage,
     navbar,
     heading1,
     navLinks,
@@ -116,15 +120,15 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 1 Καφές της επιλογής σας &amp; 1 νερό 500ml{" "}
               </p>
               <span className="mr-3">
                 <button
                   type="button"
-                  className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                  className={pricebutton}
                 >
-                  <span>1,60€</span>
+                  <span className={span}>1,60€</span>
                 </button>
               </span>
               <div className="d-inline-block">
@@ -145,16 +149,16 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 1 Καφές της επιλογής σας, 1 τοστ της επιλογής σας &amp; 1 νερό
                 500ml{" "}
               </p>
               <span className="mr-3">
                 <button
                   type="button"
-                  className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                  className={pricebutton}
                 >
-                  <span>2,80€</span>
+                  <span className={span}>2,80€</span>
                 </button>
               </span>
               <div className="d-inline-block">
@@ -175,16 +179,16 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 1 Καφές της επιλογής σας, 1 μπαγκέτα της επιλογής σας &amp; 1
                 νερό 500ml{" "}
               </p>
               <span className="mr-3">
                 <button
                   type="button"
-                  className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                  className={pricebutton}
                 >
-                  <span>3,00€</span>
+                  <span className={span}>3,00€</span>
                 </button>
               </span>
               <div className="d-inline-block">
@@ -228,17 +232,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Σπανακοτυρόπιτα
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,60€</span>
+                <span className={span}>1,60€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Σπανακοτυρόπιτα"
                 width={448}
@@ -249,7 +253,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000049?c=89e9b911b2f879aa3555d4c333e9e442"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -262,20 +266,20 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Μπαγκέτα λευκή ζαμπόν &amp; gouda
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Με ζαμπόν, gouda, ντομάτα, μαρούλι &amp; μαγιονέζα
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 2,50€</span>
+                <span className={span}>Από 2,50€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Μπαγκέτα λευκή ζαμπόν & gouda"
                 width={448}
@@ -286,7 +290,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000063?c=f2ee425351b81068cb6eaefb140655d5"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -299,17 +303,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Freddo espresso
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,60€</span>
+                <span className={span}>Από 1,60€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Freddo espresso"
                 width={448}
@@ -317,10 +321,10 @@ const AgerRu = () => {
                 className={shopprofilemenulistitemimg}
                 data-src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000010?c=2723aa02d7d93cf1993d35048fb99211"
                 data-blurhash="L3TSUA%M%M%M~qj[IUj[D%ay%May"
-                data-skeleton="skeleton-shape--item-img"
+                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000010?c=2723aa02d7d93cf1993d35048fb99211"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -333,17 +337,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Cappuccino
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,60€</span>
+                <span className={span}>Από 1,60€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Cappuccino"
                 width={448}
@@ -354,7 +358,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000008?c=c88c3554be687200dd2f6c02ec87bc09"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -367,20 +371,20 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Πίτσα large
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Με σάλτσα ντομάτας, gouda, μπέικον &amp; σαλάμι μπύρας
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>2,20€</span>
+                <span className={span}>2,20€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Πίτσα large"
                 width={448}
@@ -391,7 +395,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000103?c=48ab6bebc8b0bc93e6838986c8df8145"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -404,17 +408,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Freddo cappuccino
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,60€</span>
+                <span className={span}>Από 1,60€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Freddo cappuccino"
                 width={448}
@@ -425,7 +429,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000011?c=8df66c55f4df0d8b195ab97d4abf3e8f"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -438,17 +442,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Γραβιερόπιτα
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,80€</span>
+                <span className={span}>1,80€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Γραβιερόπιτα"
                 width={448}
@@ -459,7 +463,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000054?c=25b61bee63aa168551d4c86e3515e7d5"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -472,17 +476,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Κουλούρι Θεσσαλονίκης γεμιστό με Philadelphia &amp; πάστα ελιάς
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,20€</span>
+                <span className={span}>1,20€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Κουλούρι Θεσσαλονίκης γεμιστό με Philadelphia & πάστα ελιάς"
                 width={448}
@@ -493,7 +497,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000056?c=3acd4e6954df949665f1bd76dfb5b1b4"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -506,17 +510,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Κουλούρι Θεσσαλονίκης γεμιστό με Philadelphia &amp; γαλοπούλα
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,20€</span>
+                <span className={span}>1,20€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Κουλούρι Θεσσαλονίκης γεμιστό με Philadelphia & γαλοπούλα"
                 width={448}
@@ -527,7 +531,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000057?c=55f8609a56cfa8fd0e8ab948c477ac6e"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -563,17 +567,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Espresso
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,00€</span>
+                <span className={span}>Από 1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Espresso"
                 width={448}
@@ -584,7 +588,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:espresso?c=1657203860"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -597,14 +601,14 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Espresso lungo
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,20€</span>
+                <span className={span}>Από 1,20€</span>
               </button>
             </div>
           </div>
@@ -618,14 +622,14 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Espresso americano
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,20€</span>
+                <span className={span}>Από 1,20€</span>
               </button>
             </div>
           </div>
@@ -639,17 +643,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Freddo espresso
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,60€</span>
+                <span className={span}>Από 1,60€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Freddo espresso"
                 width={448}
@@ -660,7 +664,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000010?c=2723aa02d7d93cf1993d35048fb99211"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -673,17 +677,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Cappuccino
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,60€</span>
+                <span className={span}>Από 1,60€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Cappuccino"
                 width={448}
@@ -694,7 +698,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000008?c=c88c3554be687200dd2f6c02ec87bc09"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -707,14 +711,14 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Cappuccino latte
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,60€</span>
+                <span className={span}>Από 1,60€</span>
               </button>
             </div>
           </div>
@@ -728,17 +732,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Freddo cappuccino
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,60€</span>
+                <span className={span}>Από 1,60€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Freddo cappuccino"
                 width={448}
@@ -749,7 +753,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000011?c=8df66c55f4df0d8b195ab97d4abf3e8f"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -762,14 +766,14 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Nes
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,50€</span>
+                <span className={span}>Από 1,50€</span>
               </button>
             </div>
           </div>
@@ -783,14 +787,14 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Frappe
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,50€</span>
+                <span className={span}>Από 1,50€</span>
               </button>
             </div>
           </div>
@@ -804,17 +808,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Φίλτρου
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,50€</span>
+                <span className={span}>Από 1,50€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Φίλτρου"
                 width={448}
@@ -825,7 +829,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:philtrou?c=1654524569"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -838,17 +842,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Ελληνικός
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,00€</span>
+                <span className={span}>Από 1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Ελληνικός"
                 width={448}
@@ -859,7 +863,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:ellinikos?c=1657203862"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -895,17 +899,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Σοκολάτα
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 2,00€</span>
+                <span className={span}>Από 2,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Σοκολάτα"
                 width={448}
@@ -916,7 +920,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:sokolata?c=1659688441"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -929,14 +933,14 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Freddito
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 3,50€</span>
+                <span className={span}>Από 3,50€</span>
               </button>
             </div>
           </div>
@@ -950,20 +954,20 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Φυσικός χυμός ανάμεικτος
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Με φρούτα εποχής
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>2,00€</span>
+                <span className={span}>2,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Φυσικός χυμός ανάμεικτος"
                 width={448}
@@ -974,7 +978,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:phusikos-xumos-anameiktos?c=1645004279"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -1010,20 +1014,20 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Τσάι λεμόνι
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Ζεστό
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,00€</span>
+                <span className={span}>Από 1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Τσάι λεμόνι"
                 width={448}
@@ -1034,7 +1038,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:tsai-lemoni?c=1659688468"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -1047,20 +1051,20 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Τσάι φράουλα
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Ζεστό
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,00€</span>
+                <span className={span}>Από 1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Τσάι φράουλα"
                 width={448}
@@ -1071,7 +1075,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:tsai-phraoula?c=1659688468"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -1084,20 +1088,20 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Τσάι καραμέλα
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Ζεστό
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,00€</span>
+                <span className={span}>Από 1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Τσάι καραμέλα"
                 width={448}
@@ -1108,7 +1112,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:tsai-karamela?c=1657203871"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -1121,20 +1125,20 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Τσάι πράσινο
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Ζεστό
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,00€</span>
+                <span className={span}>Από 1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Τσάι πράσινο"
                 width={448}
@@ -1145,7 +1149,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:tsai-prasino?c=1659688469"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -1158,20 +1162,20 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Τσάι βανίλια
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Ζεστό
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,00€</span>
+                <span className={span}>Από 1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Τσάι βανίλια"
                 width={448}
@@ -1182,7 +1186,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:tsai-banilia?c=1659688468"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -1195,20 +1199,20 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Τσάι English breakfast
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Ζεστό
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,00€</span>
+                <span className={span}>Από 1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Τσάι English breakfast"
                 width={448}
@@ -1219,7 +1223,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:tsai-english-breakfast?c=1657203871"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -1232,14 +1236,14 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Iced tea βατόμουρο με stevia
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,50€</span>
+                <span className={span}>Από 1,50€</span>
               </button>
             </div>
           </div>
@@ -1278,14 +1282,14 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Milkshake σοκολάτα
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 3,50€</span>
+                <span className={span}>Από 3,50€</span>
               </button>
             </div>
           </div>
@@ -1299,14 +1303,14 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Milkshake βανίλια
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 3,50€</span>
+                <span className={span}>Από 3,50€</span>
               </button>
             </div>
           </div>
@@ -1320,14 +1324,14 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Milkshake φράουλα
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 3,50€</span>
+                <span className={span}>Από 3,50€</span>
               </button>
             </div>
           </div>
@@ -1341,17 +1345,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Γρανίτα λεμόνι
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Χωρίς ζάχαρη
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 2,00€</span>
+                <span className={span}>Από 2,00€</span>
               </button>
             </div>
           </div>
@@ -1365,17 +1369,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Γρανίτα λεμόνι &amp; φράουλα
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Χωρίς ζάχαρη
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 2,00€</span>
+                <span className={span}>Από 2,00€</span>
               </button>
             </div>
           </div>
@@ -1389,17 +1393,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Γρανίτα ανανάς, mango &amp; αγαύη
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Χωρίς ζάχαρη
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 2,00€</span>
+                <span className={span}>Από 2,00€</span>
               </button>
             </div>
           </div>
@@ -1413,17 +1417,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Γρανίτα μοσχολέμονο &amp; αγαύη
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Χωρίς ζάχαρη
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 2,00€</span>
+                <span className={span}>Από 2,00€</span>
               </button>
             </div>
           </div>
@@ -1437,17 +1441,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Γρανίτα πράσινο μήλο &amp; ρόδι
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Χωρίς ζάχαρη
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 2,00€</span>
+                <span className={span}>Από 2,00€</span>
               </button>
             </div>
           </div>
@@ -1484,17 +1488,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Σπανακοτυρόπιτα
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,60€</span>
+                <span className={span}>1,60€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Σπανακοτυρόπιτα"
                 width={448}
@@ -1505,7 +1509,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000049?c=89e9b911b2f879aa3555d4c333e9e442"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -1518,14 +1522,14 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Τυρόπιτα βουτύρου
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
           </div>
@@ -1539,14 +1543,14 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Λουκανικόπιτα
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,50€</span>
+                <span className={span}>1,50€</span>
               </button>
             </div>
           </div>
@@ -1560,14 +1564,14 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Κρουασάν ζαμπόν &amp; τυρί κρέμα
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>2,00€</span>
+                <span className={span}>2,00€</span>
               </button>
             </div>
           </div>
@@ -1581,20 +1585,20 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Πίτσα large
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Με σάλτσα ντομάτας, gouda, μπέικον &amp; σαλάμι μπύρας
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>2,20€</span>
+                <span className={span}>2,20€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Πίτσα large"
                 width={448}
@@ -1605,7 +1609,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000103?c=48ab6bebc8b0bc93e6838986c8df8145"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -1618,17 +1622,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Πεϊνιρλί
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Με σάλτσα ντομάτας, gouda &amp; μπέικον
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>2,20€</span>
+                <span className={span}>2,20€</span>
               </button>
             </div>
           </div>
@@ -1642,17 +1646,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Γραβιερόπιτα
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,80€</span>
+                <span className={span}>1,80€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Γραβιερόπιτα"
                 width={448}
@@ -1663,7 +1667,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000054?c=25b61bee63aa168551d4c86e3515e7d5"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -1676,17 +1680,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Κουλούρι Θεσσαλονίκης
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>0,60€</span>
+                <span className={span}>0,60€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Κουλούρι Θεσσαλονίκης"
                 width={448}
@@ -1697,7 +1701,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:koulouri-thessalonikis?c=1649870447"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -1710,17 +1714,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Κουλούρι Θεσσαλονίκης γεμιστό με Philadelphia &amp; πάστα ελιάς
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,20€</span>
+                <span className={span}>1,20€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Κουλούρι Θεσσαλονίκης γεμιστό με Philadelphia & πάστα ελιάς"
                 width={448}
@@ -1731,7 +1735,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000056?c=3acd4e6954df949665f1bd76dfb5b1b4"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -1744,17 +1748,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Κουλούρι Θεσσαλονίκης γεμιστό με Philadelphia &amp; γαλοπούλα
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,20€</span>
+                <span className={span}>1,20€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Κουλούρι Θεσσαλονίκης γεμιστό με Philadelphia & γαλοπούλα"
                 width={448}
@@ -1765,7 +1769,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000057?c=55f8609a56cfa8fd0e8ab948c477ac6e"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -1778,14 +1782,14 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Μπουγάτσα κρέμα
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 3,00€</span>
+                <span className={span}>Από 3,00€</span>
               </button>
             </div>
           </div>
@@ -1799,17 +1803,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Κρουασάν βουτύρου
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Κρουασάν βουτύρου"
                 width={448}
@@ -1820,7 +1824,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:krouasan-bouturou?c=1659688395"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -1833,14 +1837,14 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Κρουασάν σοκολάτα
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,60€</span>
+                <span className={span}>1,60€</span>
               </button>
             </div>
           </div>
@@ -1854,14 +1858,14 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Φύλλο σφολιάτας με Philadelphia &amp; μπέικον
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>2,40€</span>
+                <span className={span}>2,40€</span>
               </button>
             </div>
           </div>
@@ -1898,17 +1902,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Τοστ ζαμπόν &amp; gouda
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Με ψωμί του τοστ λευκό
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,50€</span>
+                <span className={span}>Από 1,50€</span>
               </button>
             </div>
           </div>
@@ -1922,17 +1926,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Τοστ γαλοπούλα &amp; gouda
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Με ψωμί του τοστ λευκό
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 1,50€</span>
+                <span className={span}>Από 1,50€</span>
               </button>
             </div>
           </div>
@@ -1946,20 +1950,20 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Μπαγκέτα λευκή ζαμπόν &amp; gouda
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Με ζαμπόν, gouda, ντομάτα, μαρούλι &amp; μαγιονέζα
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 2,50€</span>
+                <span className={span}>Από 2,50€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Μπαγκέτα λευκή ζαμπόν & gouda"
                 width={448}
@@ -1970,7 +1974,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000063?c=f2ee425351b81068cb6eaefb140655d5"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -1983,17 +1987,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Μπαγκέτα λευκή γαλοπούλα &amp; gouda
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Με γαλοπούλα, gouda, ντομάτα, μαρούλι &amp; μαγιονέζα
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 2,50€</span>
+                <span className={span}>Από 2,50€</span>
               </button>
             </div>
           </div>
@@ -2007,17 +2011,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Ζάγκας food group chicken club
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Συσκευασμένο. Με κοτομπουκιές, gouda, μπέικον &amp; αγροτική σως
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>2,50€</span>
+                <span className={span}>2,50€</span>
               </button>
             </div>
           </div>
@@ -2031,18 +2035,18 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Ζάγκας food group ψωμί του τοστ ολικής άλεσης γαλοπούλα, gouda,
                 αγροτική σως
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Συσκευασμένο
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>2,50€</span>
+                <span className={span}>2,50€</span>
               </button>
             </div>
           </div>
@@ -2081,17 +2085,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Στεργίου κρουασάν με γέμιση πραλίνα φουντουκιού 105gr
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Στεργίου κρουασάν με γέμιση πραλίνα φουντουκιού 105gr"
                 width={448}
@@ -2102,7 +2106,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-krouasan-me-gemisi-pralina-phountoukiou-105gr?c=1639581261"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -2115,17 +2119,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Στεργίου βιεννέζικο με γέμιση κρέμα σοκολάτας 120gr
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Στεργίου βιεννέζικο με γέμιση κρέμα σοκολάτας 120gr"
                 width={448}
@@ -2136,7 +2140,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-bienneziko-me-gemisi-krema-sokolatas-120gr?c=1639581255"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -2149,17 +2153,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Στεργίου strudel με γέμιση μήλο &amp; κανέλα 125gr
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Στεργίου strudel με γέμιση μήλο & κανέλα 125gr"
                 width={448}
@@ -2170,7 +2174,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-strudel-me-gemisi-milo-kai-kanela-125gr?c=1639581277"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -2183,17 +2187,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Στεργίου mini τσουρέκι με μαστίχα Χίου 90gr
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Στεργίου mini τσουρέκι με μαστίχα Χίου 90gr"
                 width={448}
@@ -2204,7 +2208,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-mini-tsoureki-me-mastixa-xiou-90gr?c=1639581272"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -2217,17 +2221,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Στεργίου mini τσουρέκι με γέμιση πραλίνα φουντουκιού 90gr
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Στεργίου mini τσουρέκι με γέμιση πραλίνα φουντουκιού 90gr"
                 width={448}
@@ -2238,7 +2242,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-mini-tsoureki-me-gemisi-pralina-phountoukiou-90gr?c=1639581274"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -2251,17 +2255,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Στεργίου μηλόπιτα 105gr
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Στεργίου μηλόπιτα 105gr"
                 width={448}
@@ -2272,7 +2276,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-milopita-105gr?c=1639581264"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -2285,17 +2289,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Στεργίου λεμονόπιτα 105gr
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Στεργίου λεμονόπιτα 105gr"
                 width={448}
@@ -2306,7 +2310,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-lemonopita-105gr?c=1639581259"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -2319,17 +2323,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Στεργίου soft cookie με κομμάτια σοκολάτας υγείας 100gr
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Στεργίου soft cookie με κομμάτια σοκολάτας υγείας 100gr"
                 width={448}
@@ -2340,7 +2344,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-soft-cookie-me-kommatia-sokolatas-ugeias-100gr?c=1639581285"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -2353,17 +2357,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Στεργίου muffin σοκολάτας με γέμιση πραλίνα φουντουκιού 120gr
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Στεργίου muffin σοκολάτας με γέμιση πραλίνα φουντουκιού 120gr"
                 width={448}
@@ -2374,7 +2378,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-muffin-sokolatas-me-gemisi-pralina-phountoukiou-120gr?c=1639581290"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -2387,17 +2391,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Στεργίου muffin βουτύρου με γέμιση salted caramel 120gr
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Στεργίου muffin βουτύρου με γέμιση salted caramel 120gr"
                 width={448}
@@ -2408,7 +2412,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-muffin-bouturou-me-gemisi-salted-caramel-120gr?c=1639581292"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -2421,17 +2425,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Στεργίου cake ανάμεικτο 80gr
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Φέτα
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
           </div>
@@ -2445,20 +2449,20 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Στεργίου cake πορτοκάλι ατομικό 80gr
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Φέτα
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Στεργίου cake πορτοκάλι ατομικό 80gr"
                 width={448}
@@ -2469,7 +2473,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-cake-portokali-atomiko-80gr?c=1639581284"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -2482,17 +2486,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Στεργίου κριτσίνια με καρότο Vegan 90gr
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Στεργίου κριτσίνια με καρότο Vegan 90gr"
                 width={448}
@@ -2503,7 +2507,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-kritsinia-me-karoto-vegan-90gr?c=1639581256"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -2516,17 +2520,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Στεργίου κριτσίνια πολύσπορα 90gr
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Στεργίου κριτσίνια πολύσπορα 90gr"
                 width={448}
@@ -2537,7 +2541,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-kritsinia-poluspora-90gr?c=1639581258"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -2550,17 +2554,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Στεργίου κριτσίνια με σουσάμι Vegan 180gr
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,70€</span>
+                <span className={span}>1,70€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Στεργίου κριτσίνια με σουσάμι Vegan 180gr"
                 width={448}
@@ -2571,7 +2575,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-kritsinia-me-sousami-vegan-180gr?c=1639581294"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -2584,17 +2588,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Στεργίου κριτσίνια με ηλιόσπορο Vegan 180gr
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,70€</span>
+                <span className={span}>1,70€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Στεργίου κριτσίνια με ηλιόσπορο Vegan 180gr"
                 width={448}
@@ -2605,7 +2609,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/stergiou-kritsinia-me-iliosporo-vegan-180gr?c=1639581293"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -2641,18 +2645,18 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Ντάκος
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Σαλάτα με παξιμάδι, ντομάτα, φέτα, ελιά ροδέλα, κάππαρη, λάδι
                 &amp; ρίγανη
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>4,00€</span>
+                <span className={span}>4,00€</span>
               </button>
             </div>
           </div>
@@ -2666,18 +2670,18 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Πράσινη
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Σαλάτα πράσινη mix με ντοματίνια, παρμεζάνα τριμμένη, λάδι,
                 λεμόνι &amp; μουστάρδα
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>4,00€</span>
+                <span className={span}>4,00€</span>
               </button>
             </div>
           </div>
@@ -2691,17 +2695,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Φρουτοσαλάτα
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Με φρούτα εποχής
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>3,50€</span>
+                <span className={span}>3,50€</span>
               </button>
             </div>
           </div>
@@ -2738,17 +2742,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Spaghetti napolitana
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Με κόκκινη σάλτσα. Συνοδεύεται από τριμμένο κεφαλοτύρι
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 3,50€</span>
+                <span className={span}>Από 3,50€</span>
               </button>
             </div>
           </div>
@@ -2762,18 +2766,18 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Spaghetti bolognese
               </p>
-              <p className="small mb-3 text-muted shop-profile-menu-list-item-description">
+              <p className={areaparagraf2}>
                 Με κόκκινη σάλτσα &amp; κιμά ανάμεικτο. Συνοδεύεται από τριμμένο
                 κεφαλοτύρι
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>Από 3,50€</span>
+                <span className={span}>Από 3,50€</span>
               </button>
             </div>
           </div>
@@ -2810,14 +2814,14 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Ζάγκας food group προφιτερόλ 180gr
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>2,50€</span>
+                <span className={span}>2,50€</span>
               </button>
             </div>
           </div>
@@ -2831,14 +2835,14 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Ζάγκας food group mille feuille 180gr
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>2,50€</span>
+                <span className={span}>2,50€</span>
               </button>
             </div>
           </div>
@@ -2852,14 +2856,14 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Ζάγκας food group Bueno 180gr
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>2,50€</span>
+                <span className={span}>2,50€</span>
               </button>
             </div>
           </div>
@@ -2873,14 +2877,14 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Ζάγκας food group Black forest 180gr
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>2,50€</span>
+                <span className={span}>2,50€</span>
               </button>
             </div>
           </div>
@@ -2894,14 +2898,14 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Ζάγκας food group cheesecake 180gr
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>2,50€</span>
+                <span className={span}>2,50€</span>
               </button>
             </div>
           </div>
@@ -2915,14 +2919,14 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Ζάγκας food group σοκολατόπιτα 140gr
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>2,50€</span>
+                <span className={span}>2,50€</span>
               </button>
             </div>
           </div>
@@ -2959,17 +2963,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Coca-Cola 330ml
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Coca-Cola 330ml"
                 width={556}
@@ -2980,7 +2984,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/coca-cola-330ml?c=1649881596"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -2993,17 +2997,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Coca-Cola zero 330ml
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Coca-Cola zero 330ml"
                 width={556}
@@ -3014,7 +3018,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/coca-cola-zero-330ml?c=1649881604"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -3027,17 +3031,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Fanta κόκκινη 330ml
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Fanta κόκκινη 330ml"
                 width={556}
@@ -3048,7 +3052,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/restaurants/5551558/menu_item/000000000019?c=51e8735c7912636e7f22b3485878d5f6"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -3061,17 +3065,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Fanta μπλε 330ml
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Fanta μπλε 330ml"
                 width={556}
@@ -3082,7 +3086,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/fanta-mple-330ml?c=1659605975"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -3095,17 +3099,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Sprite 330ml
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Sprite 330ml"
                 width={556}
@@ -3116,7 +3120,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/sprite-330ml?c=1649884002"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -3129,17 +3133,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Amita πορτοκάλι 330ml
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Amita πορτοκάλι 330ml"
                 width={556}
@@ -3150,7 +3154,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/amita-portokali-330ml?c=-62135596800"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -3163,17 +3167,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Amita Motion 330ml
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,50€</span>
+                <span className={span}>1,50€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Amita Motion 330ml"
                 width={556}
@@ -3184,7 +3188,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/amita-motion-330ml?c=-62135596800"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -3197,17 +3201,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Lipton ice tea λεμόνι 330ml
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,50€</span>
+                <span className={span}>1,50€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Lipton ice tea λεμόνι 330ml"
                 width={556}
@@ -3218,7 +3222,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:lipton-ice-tea-lemoni-330ml?c=1649671534"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -3231,17 +3235,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Lipton ice tea ροδάκινο 330ml
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,50€</span>
+                <span className={span}>1,50€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Lipton ice tea ροδάκινο 330ml"
                 width={556}
@@ -3252,7 +3256,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:lipton-ice-tea-rodakino-330ml?c=1649671537"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -3265,17 +3269,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Νερό 500ml
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>0,50€</span>
+                <span className={span}>0,50€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Νερό 500ml"
                 width={556}
@@ -3286,7 +3290,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/nero-500ml?c=1639581306"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -3299,17 +3303,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Νερό 1lt
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,00€</span>
+                <span className={span}>1,00€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Νερό 1lt"
                 width={556}
@@ -3320,7 +3324,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/nero-1lt?c=1639581307"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -3356,17 +3360,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Άλφα 330ml
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,50€</span>
+                <span className={span}>1,50€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Άλφα 330ml"
                 width={556}
@@ -3377,7 +3381,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/alpha-330ml?c=1659618427"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -3390,17 +3394,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Amstel 330ml
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,50€</span>
+                <span className={span}>1,50€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Amstel 330ml"
                 width={556}
@@ -3411,7 +3415,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/amstel-330ml?c=1655734078"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -3424,17 +3428,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Heineken 330ml
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>1,70€</span>
+                <span className={span}>1,70€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Heineken 330ml"
                 width={556}
@@ -3445,7 +3449,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/heineken-330ml?c=1649887097"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
@@ -3458,17 +3462,17 @@ const AgerRu = () => {
         >
           <div className={areadescription}>
             <div>
-              <p className="font-weight-bold mb-3 shop-profile-menu-list-item-name">
+              <p className={areaparagraf}>
                 Kaiser 500ml
               </p>
               <button
                 type="button"
-                className="ml-auto py-0 px-0 btn btn-link btn-add-to-cart hover-no-decoration text-black"
+                className={pricebutton}
               >
-                <span>2,50€</span>
+                <span className={span}>2,50€</span>
               </button>
             </div>
-            <div className="ml-5 flex-shrink-0 shop-profile-menu-list-item-img-container">
+            <div className={areadivimage}>
               <img
                 alt="Kaiser 500ml"
                 width={556}
@@ -3479,7 +3483,7 @@ const AgerRu = () => {
                 data-skeleton="skeleton-shape--item-img"
                 src="https://cdn.e-food.gr/cdn-cgi/image/h=160,fit=cover,q=100,f=auto/global_assets/vertical:food:kaiser-500ml?c=1649869996"
               />
-              <canvas width={32} height={32} className="blurhash-image" />
+              
             </div>
           </div>
         </li>
