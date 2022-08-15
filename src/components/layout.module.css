@@ -165,6 +165,8 @@ justify-content: space-around;
   flex-direction: row;
   background-color:aquamarine;
   border-radius:2em;
+  padding: 2px;
+margin: 9px;
  }
  .gogo {
 background-color:rgb(95, 210, 141);
@@ -172,4 +174,10 @@ font-size: 2em;
 padding: 12px;
 margin: 12px;
 border-radius:1em;
+ }
+ .tot {
+  border-radius:4em;
+  padding: 12px;
+  margin: 12px;
+
  }

@@ -105,7 +105,12 @@ import {
 </div>
 
 </div>
+<StaticImage
+alt=""
+src="../images/icon2.png"
+layout="fullWidth"
 
+/>
 </Layout>
   )
 }

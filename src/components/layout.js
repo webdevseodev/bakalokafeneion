@@ -9,10 +9,13 @@ import {
   navLinkItem,
   navLinkText
 } from './layout.module.css'
+import { StaticImage } from 'gatsby-plugin-image'
 
 const Layout = ({ pageTitle, children }) => {
   return (
+   
     <div className={container}>
+      
       <title>{pageTitle}</title>
       <nav className={navbar}>
         <ul className={navLinks}>
@@ -55,11 +58,16 @@ const Layout = ({ pageTitle, children }) => {
          
         </ul>
       </nav>
+    
+  
+     
+
       <main>
         <h1 className={heading}>{pageTitle}</h1>
         {children}
       </main>
     </div>
+    
   )
 }
 
