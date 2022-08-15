@@ -22,6 +22,11 @@ const Layout = ({ pageTitle, children }) => {
             </Link>
           </li>
           <li className={navLinkItem}>
+            <Link to="/kok" className={navLinkText}>
+            Ωραριο
+            </Link>
+          </li>
+          <li className={navLinkItem}>
             <Link to="/pop" className={navLinkText}>
              Καταλογος
             </Link>

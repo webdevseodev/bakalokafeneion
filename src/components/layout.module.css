@@ -158,3 +158,18 @@ font-weight: bold;
 margin: 2px;
     font-size: 19px;
   }
+ .colo {
+justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color:aquamarine;
+  border-radius:2em;
+ }
+ .gogo {
+background-color:rgb(95, 210, 141);
+font-size: 2em;
+padding: 12px;
+margin: 12px;
+border-radius:1em;
+ }
